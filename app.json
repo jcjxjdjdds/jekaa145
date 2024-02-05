@@ -14,13 +14,13 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
+        "value": "23825144",
+        "required": false
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
+        "value": "38e3be37f54ee60203f203fb4d941c1b",
+        "required": false
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
@@ -29,13 +29,13 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
-        "required": true
+        "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
+        "required": false
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
-        "required": true
+        "value": "2095495680",
+        "required": false
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
@@ -54,8 +54,8 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
-        "required": true
+        "value": "-1001871388107",
+        "required": false
       }
     },
     "buildpacks": [
